@@ -1,0 +1,183 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: #e0e8ff url("../images/pattern-background-desktop.svg") no-repeat 0 0;
+  font-family: 'Red Hat Display', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 380px) {
+  body {
+    background: #e0e8ff url("../images/pattern-background-mobile.svg") no-repeat 0 0;
+  }
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: white;
+  border-radius: 20px;
+  width: 350px;
+}
+
+@media (max-width: 365px) {
+  .card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 315px) {
+  .card {
+    width: 260px;
+  }
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card-info {
+  text-align: center;
+  margin-top: 2em;
+  width: 250px;
+}
+
+.card-info-title {
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.card-info-summary {
+  font-size: .8rem;
+  margin-top: 1.125em;
+  color: #7280a7;
+  line-height: 1.5em;
+}
+
+.plans {
+  width: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em;
+  background: #f5f7ff;
+  border-radius: 10px;
+  margin-top: 1.5em;
+}
+
+@media (max-width: 365px) {
+  .plans {
+    width: 250px;
+  }
+}
+
+@media (max-width: 315px) {
+  .plans {
+    width: 230px;
+  }
+}
+
+.plans-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.plans-info img {
+  width: 35px;
+  height: 35px;
+}
+
+.plans a {
+  font-size: .65rem;
+  color: #3829e0;
+  font-weight: 900;
+  margin: .5em;
+}
+
+.plan {
+  margin: -.15em 1em;
+}
+
+.plan-name {
+  font-size: .75rem;
+  font-weight: 900;
+  color: #1f2f56;
+}
+
+.plan-price {
+  color: #7280a7;
+  font-size: .75rem;
+  margin-top: .4em;
+}
+
+button {
+  background: #3829e0;
+  border: none;
+  width: 260px;
+  padding: 1em;
+  border-radius: 8px;
+  color: white;
+  font-size: .7rem;
+  margin-top: 2em;
+  -webkit-box-shadow: 0 15px 10px 1px #e0e8ff;
+          box-shadow: 0 15px 10px 1px #e0e8ff;
+}
+
+@media (max-width: 365px) {
+  button {
+    width: 250px;
+  }
+}
+
+@media (max-width: 315px) {
+  button {
+    width: 230px;
+  }
+}
+
+.cancel-order {
+  margin: 2em 0;
+  font-size: .7rem;
+  font-weight: 900;
+  color: #7280a7;
+}
+/*# sourceMappingURL=style.css.map */
