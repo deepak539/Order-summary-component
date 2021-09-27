@@ -133,6 +133,11 @@ body {
   margin: .5em;
 }
 
+a:hover{
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
 .plan {
   margin: -.15em 1em;
 }
@@ -158,8 +163,13 @@ button {
   color: white;
   font-size: .7rem;
   margin-top: 2em;
+  cursor: pointer;
   -webkit-box-shadow: 0 15px 10px 1px #e0e8ff;
           box-shadow: 0 15px 10px 1px #e0e8ff;
+}
+
+button:hover{
+  background: hsl(224, 23%, 55%);
 }
 
 @media (max-width: 365px) {
@@ -179,5 +189,10 @@ button {
   font-size: .7rem;
   font-weight: 900;
   color: #7280a7;
+  cursor: pointer;
+}
+
+.cancel-order:hover{
+  color: hsl(223, 47%, 23%);
 }
 /*# sourceMappingURL=style.css.map */
